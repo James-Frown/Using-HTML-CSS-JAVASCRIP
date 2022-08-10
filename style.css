@@ -1,0 +1,18 @@
+body {
+    background-color: gray;
+    padding-top: 15rem;
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowwer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
