@@ -22,3 +22,8 @@ function clearCount(curCount) {
     curCount.innerHTML = curCount.innerHTML * 0;
     console.log(curCount.innerHTML);
 }
+
+function displayInput(textVar, target) {
+    let i = textVar.value;
+    target.innerHTML = i;
+}
