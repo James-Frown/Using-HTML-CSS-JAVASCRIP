@@ -48,6 +48,35 @@
 
     </div>
 
+    <div class="upper">
+
+        <h1>
+            Output:
+        </h1>
+
+        <p id="CalcOut">
+        </p>
+
+    </div>
+
+    <div class="lowwer">
+
+        <button id="resets" onclick="resetsSum(CalcOut)">clr</button>
+
+        <input type="number" id="calcNum" value="0"><br>
+
+        <button id="add" onClick="addNums(calcNum, CalcOut)">+</button>
+
+        <button id="subtract" onClick="subtractNums(calcNum, CalcOut)">-</button>
+
+        <button id="multiply" onClick="multiplyNums(calcNum, CalcOut)">*</button>
+
+        <button id="divide" onClick="divideNums(calcNum, CalcOut)">/</button>
+
+        <button id="sum" onclick="displaySum(calcNum, CalcOut)">=</button>
+
+    </div>
+
     <script src=" /app.js ">
     </script>
 
