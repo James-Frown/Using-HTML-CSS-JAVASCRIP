@@ -36,6 +36,9 @@
         <button id="half" onClick="halfNum(displayedCount)">half</button>
 
         <button id="reset" onClick="clearCount(displayedCount)">reset</button>
+
+        <br><br>
+
     </div>
 
     <div class="upper">
@@ -53,6 +56,8 @@
         <button id="submit" onclick="displayInput(userInput, displayedInput)">Show input</button>
 
         <p id="displayedInput"></p>
+
+        <br><br>
 
     </div>
 
@@ -86,6 +91,75 @@
         <button id="divide" onClick="divideNums(calcNum, CalcOut)">/</button>
 
         <button id="sum" onclick="displaySum(calcNum, CalcOut)">=</button>
+
+        <br><br>
+
+    </div>
+
+    <div class="upper">
+
+        <label>
+            this is a basic Shopping List...
+        </label>
+
+        <h1>
+            Shopping List:
+        </h1>
+
+        <p id="Cart">
+        </p>
+
+    </div>
+
+    <div class="lowwer">
+
+        <input type="text" id="CartVal" value="add an item"><br>
+
+        <button id="add" onClick="addItem(CartVal, Cart)">+</button>
+
+        <br><br>
+
+    </div>
+
+
+    <div class="upper">
+
+        <label>
+        this is a basic Shopping List...
+    </label>
+
+        <h1>
+            Shopping List:
+        </h1>
+
+        <p id="list">
+        </p>
+
+    </div>
+
+    <div class="lowwer">
+
+        <label>Enter Name</label>
+
+        <input type="text" id="objVal" value=""><br>
+
+        <label>Enter Price</label>
+
+        <input type="number" id="objVal" value="0"><br>
+
+        <label>Enter Amount</label>
+
+        <input type="number" id="objVal" value="0"><br>
+
+        <br><br>
+
+    </div>
+
+    <div class="lowwer">
+
+        <button id="add" onClick="addItem(CartVal, list)">+</button>
+
+        <button id="subtract" onClick="subtractItem(CartVal, list)">-</button>
 
     </div>
 

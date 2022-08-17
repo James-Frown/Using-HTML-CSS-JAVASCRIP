@@ -91,3 +91,47 @@ function resetsSum(target) {
     target.innerHTML = "";
     console.log(target.innerHTML);
 }
+
+const shoppingList = "";
+
+function addItem(textVar, target) {
+    let i = textVar.value;
+    console.log(i);
+
+    if (i == "add an item") {
+        return "";
+    }
+
+    if (i == "enter next item") {
+        return "";
+    }
+
+    let shoppingList = target.innerHTML;
+    console.log(shoppingList);
+
+    target.innerHTML += i + ", ";
+    console.log(target.innerHTML);
+
+    textVar.value = "enter next item";
+}
+
+// const currentCart = [];
+
+const currentCart = ['bacon', 'bread', 'eggs'];
+
+// const cartObject = {};
+
+const cartObject = {
+    'Price': 0,
+    'Name': "",
+    'Amount': 0
+};
+
+function addObj(obj, target) {
+    currentCart.push(obj);
+    console.log(obj);
+}
+
+function removeObj() {
+
+}
